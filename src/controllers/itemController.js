@@ -49,6 +49,7 @@ exports.addItem = async (req, res) => {
   }
 };
 
+//get all items
 exports.getAllItems = async (req, res) => {
   try {
     const items = await Item.find();
